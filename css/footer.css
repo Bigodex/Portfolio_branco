@@ -1,11 +1,11 @@
 footer {
-    background-color: #fff;
-    color: #353535;
+    background: linear-gradient(to right, #8e2de2, #492593);
+    color: #f4f4f4;
     text-align: center;
     padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
     z-index: 1000;
-    border-top: 1px solid #353535;
+    border-top: 1px solid linear-gradient(to right, #8e2de2, #492593);
 }
