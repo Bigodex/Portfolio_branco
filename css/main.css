@@ -242,17 +242,29 @@ main {
   
   /* RESPONSIVIDADE */
 @media (max-width: 768px) {
+    main {
+        height: auto;
+    }
+
     .boxs {
         flex-direction: column;
         gap: 20px;
+        margin-top: 1em;
     }
 
     .boxs .about,
     .boxs .tecnology,
-    .boxs .skills,
+    .boxs .skills {
+        width: 80%;
+        height: 20em;
+        padding: 1.4em;
+    }
+
     .boxs .contact {
         width: 80%;
-        height: auto;
+        height: 20em;
+        padding: 1.4em;
+        margin-bottom: 1em; /* Adiciona margin-bottom apenas para contact */
     }
 
     .boxs .text-description {
@@ -264,5 +276,14 @@ main {
     .boxs .text-description p {
         text-align: center;
         padding: 0; /* Remove o padding */
+    }
+
+    .cssbuttons-io {
+        margin-top: 1em;
+    }
+
+    .cssbuttons-io span {
+        justify-content: start;
+        width: 100%;
     }
 }

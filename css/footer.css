@@ -9,3 +9,12 @@ footer {
     z-index: 1000;
     border-top: 1px solid linear-gradient(to right, #8e2de2, #492593);
 }
+
+@media (max-width: 600px) {
+    footer {
+        padding: 20px;
+        font-size: 14px;
+        position: relative;
+        text-align: center;
+    }
+}
